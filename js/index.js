@@ -10,7 +10,7 @@ const input = document.querySelector('input');
 input.addEventListener('keydown', function (e) {
 
   if(e.which === 65){
-    console.log("default is prevented");
+    console.log('default is prevented');
     return e.preventDefault();
   } else {
     console.log ("not an a")
